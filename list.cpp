@@ -11,7 +11,7 @@ List::~List() {
     Node * next;
     Node * current = head;
 
-    for (int i = 0; i < size; i++) {
+    for (size_t i = 0; i < size; i++) {
         next = current->next;
         delete current;
         current = next;
