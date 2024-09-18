@@ -1,3 +1,10 @@
+// Colsen Murray
+// Dr. Emrich - CS302 - Proj 2
+// This code takes a list of numbers in arbitrary order as an input. It then 
+// uses a sorting algorithm and returns the new list. The sorting methods are 
+// oblivious (none), stl, qsort, quick sort, and merge sort.
+
+
 // volsort.h
 
 #ifndef VOLSORT_H
@@ -29,14 +36,8 @@ struct List {
         head = newNode;
 
         size++;
-    }	//define below
-
-    void dump_node(Node *n) {
-        while (n != nullptr) {
-            std::cout << "String:  " << n->string << ",  Num:  " << n->number << '\n';
-            n = n->next;
-        }
     }
+
 };
 
 
@@ -44,8 +45,6 @@ struct List {
 
 bool node_number_compare(const Node *a, const Node *b); 	//implement in list.cpp to avoid compile-time issues, used by quick, merge and stl
 bool node_string_compare(const Node *a, const Node *b);		//implement in list.cpp to avoid compile-time issues, merge and stl
-
-// void dump_node(Node *n);					// implement in this file (volsort.h) to make it easier for TAs to grade
 
 void stl_sort(List &l, bool numeric);	// define in stl.cpp - sort using std::sort
 void qsort_sort(List &l, bool numeric);	// define in qsort.cpp - sort using qsort from cstdlib
