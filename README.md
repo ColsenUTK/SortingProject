@@ -4,6 +4,10 @@ This code takes a list of numbers in arbitrary order as an input. It then
 uses a sorting algorithm and returns the new list. The sorting methods are 
 oblivious (none), stl, qsort, quick sort, and merge sort.
 
+GitHub Repo Link:
+
+    https://github.com/ColsenUTK/SortingProject
+
 To generate a file of random numbers, use the following command:
     
     ./generatelist [num ints]
