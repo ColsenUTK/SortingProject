@@ -1,4 +1,4 @@
-// Colsen Murray
+// Colsen Murray (No Project Partner)
 // Dr. Emrich - CS302 - Proj 2
 // This code takes a list of numbers in arbitrary order as an input. It then 
 // uses a sorting algorithm and returns the new list. The sorting methods are 

@@ -87,13 +87,13 @@ int main(int argc, char *argv[]) {
     }
     
 
-    for (Node * curr = data.head; curr != NULL; curr = curr->next) {
-        if (numeric) {
-            std::cout << curr->number << std::endl;
-        } else {
-            std::cout << curr->string << std::endl;
-        }
-    }
+    // for (Node * curr = data.head; curr != NULL; curr = curr->next) {
+    //     if (numeric) {
+    //         std::cout << curr->number << std::endl;
+    //     } else {
+    //         std::cout << curr->string << std::endl;
+    //     }
+    // }
 
 
     return 0;
