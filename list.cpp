@@ -7,6 +7,7 @@ List::List() {
     size = 0;
 }
 
+// traverses the whole list, deleting nodes as it goes
 List::~List() {
     Node * next;
     Node * current = head;
@@ -18,14 +19,16 @@ List::~List() {
     }
 }
 
+// compare numerically
 bool node_number_compare(const Node *a, const Node *b) {
 
     return a->number < b->number;
 
 }
 
+// compare a string lexigraphically
 bool node_string_compare(const Node *a, const Node *b) {
 
-    return stoi(a->string) < stoi(b->string);
-    
+    return a->string < b->string;
+
 }

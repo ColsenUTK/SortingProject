@@ -5,6 +5,9 @@
 #include <iostream>
 using namespace std;
 
+// this script just generates testing files with different numbers of random ints. 
+// It also generates a sorted version of that file. 
+
 
 void gen_sorted(string input, string output, int N);
 void gen_random(string output, int N);
